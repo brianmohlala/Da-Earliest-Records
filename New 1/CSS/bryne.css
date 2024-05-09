@@ -1,0 +1,86 @@
+/* Bryne Biaography */
+.bryneBio {
+  position:absolute;
+  margin: 20em 0 0 14%;
+  width: 70%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: #000;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.bryneBio header {
+  background-image: url(../images/WhatsApp\ Image\ 2023-06-10\ at\ 20.06.16.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.bryneBio header h1 {
+  color: rgb(255, 255, 255);
+  padding: 150px 50px 0 0;
+  float: right;
+  font-size: 3em;
+}
+
+.biographyContent {
+  padding: 20px;
+}
+
+.biographyContent h4 a {
+  color: #000;
+  font-size: medium;
+}
+
+.biographyContent h4 a:hover {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.bryneBio button {
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Responsive code for artist biography (For Bryne RSA) */
+@media only screen and (min-width: 430px) {
+  .bryneBio {
+    margin: 20em 0 0 0;
+    width: 95%;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 10px 0 10px;
+  }
+
+  .bryneBio header {
+    background-image: url(../images/bryne.jpg);
+    height: 400px;
+    background-size:cover;
+    border-radius: 4px;
+    box-shadow: 1px 5px 14px 5px gray;
+    color: #000000;
+    padding: 20px;
+    margin-top: 12px;
+  }
+
+  .bryneBio header h1 {
+    color: #ffffff;
+    padding: 12em 0 0 110px;
+    float:none;
+    font-size: 30px;
+  }
+
+  .biographyContent p {
+    font-size: 16px;
+  }
+}
