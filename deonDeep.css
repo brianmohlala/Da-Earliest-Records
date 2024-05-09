@@ -12,7 +12,7 @@
 }
 
 .deonBio header {
-  background-image: url(../images/Deon.jpg);
+  background-image: url(Deon.jpg);
   background-repeat: no-repeat;
   height: 400px;
   background-size: cover;
@@ -62,7 +62,7 @@
   }
 
   .deonBio header {
-    /* background-image: url(../images/bryne.jpg); */
+    /* background-image: url(bryne.jpg); */
     height: 400px;
     background-size:cover;
     border-radius: 4px;
