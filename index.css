@@ -1,0 +1,268 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  color: #ffffff;
+}
+
+/* page title and navbar */
+.row {
+  display: block;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin: 50px 0 0 0;
+}
+
+
+.column a {
+  margin: 50px 0 0 10px;
+  margin-left: 10%;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+#logo {
+  padding: 12px 14px 12px 14px;
+  background-color:rgb(133, 95, 0);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 2px 0px 400px 100px rgb(133, 95, 0);
+}
+
+#navBarHyperLinks a {
+  color: #ffffff;
+}
+
+.navbarLinks:hover {
+  text-decoration: underline rgb(133, 95, 0) 4px;
+}
+
+#homeUnderlineAnchor {
+  text-decoration: underline  rgb(133, 95, 0) 4px;
+}
+
+#homeUnderlineAnchor:hover {
+  text-decoration: underline rgb(255, 156, 35) 4px;
+}
+
+#web-bio {
+  margin: 50px 0 0 20px; width: 70ch;
+}
+
+#web-bio p {
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+  
+
+/* Stdio Set Up */
+.studioSetUp {
+  position:absolute;
+  margin: 230em 0 0 14%;
+  width: 70%;
+  border-radius: 15px;
+}
+
+.videoBelowFooter {
+  position:absolute;
+  margin: 280em 0 0 14%;
+  width: 70%;
+  border-radius: 15px;
+}
+
+.videoBelowFooter video {
+  width: 50%;
+  height: 40%;
+  margin: 0px 0px 0px 23%;
+  border-radius: 20px;
+}
+
+.studioSetUp img {
+  width: 100%;
+  border-radius: 20px;
+  /* height: 20px; */
+}
+
+/* footer */
+footer {
+  float: float;
+  display: block;
+  padding: 5px;
+  /* background-color: #313636; */
+  background-color: #000;
+  box-shadow: 8px 4px 8px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  width: 100%;
+}
+
+footer hr { 
+  position: absolute; 
+  width: 90%; 
+  margin: 0px 0px 0px 50px; border-radius: 4px; 
+  border: rgb(133, 95, 0) solid 1px;
+  padding: 2px;
+}
+
+footer .footerDivs h4 {
+  color: #ffffff;
+}
+
+footer #NewslatterForm h4 {
+  color: #ffffff;
+}
+.footerDivs {
+  /* float: left; */
+  margin-left: 5%;
+}
+.paragraphs {
+  width: 50ch;
+}
+
+
+/* social link/icons */
+.fa-square-facebook {
+  color: rgb(133, 95, 0);
+  background-color: rgb(0, 0, 0);
+  font-size: 2.5em;
+  padding: 2%;
+}
+
+.fa-square-facebook:hover {
+  color: #1569C7;
+  transition: 0.7s;
+}
+
+
+/* Newslatter form  */
+form input {
+  width: 210px;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  background-color: #b8baba;
+  border-radius: 2.5px;
+}
+
+#NewslatterForm {
+  width: 70ch;
+}
+
+footer button{
+  color: rgb(255, 255, 255);
+  background-color:rgb(133, 95, 0);
+  border: none;
+  border-radius: 4px;
+  padding: 9px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* mohlala digitals copyright */
+footer .watermark {
+  margin-top: 25%;
+}
+
+footer .watermark a {
+  color: rgb(133, 95, 0);
+  text-decoration: none;
+  font-size: 20px;
+  font-family: cursive;
+}
+footer a:hover {
+  opacity: 0.8;
+  transition: 0.4s;
+  color: rgb(65, 46, 1);
+}
+
+footer h4 {
+  color: rgb(0, 0, 0);
+}
+
+
+/* Website must be Responsive to all different kind of device so users can have better experience when visiting your web page.So the code below make the home page of this website to be Responsive. */
+
+@media only screen and (min-width: 430px) {
+  #logo {
+    padding: 12px;
+    font-size: 16px;
+    /* border-radius: 20px; */
+    /* box-shadow: 2px 0px 400px 100px rgb(133, 95, 0); */
+  }
+
+  #navBarHyperLinks  {
+    width: 100%
+  }
+
+  #navBarHyperLinks a {
+    font-size: 13px;
+    padding: 0;
+  }
+
+  #web-bio {
+    margin: 50px 0 0 0;
+    width: 100%;
+  }
+
+  #web-bio p {
+    margin-left: 0px;
+    padding: 10px 10px 0px 10px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 29px;
+    font-weight: 600;
+  }
+
+  footer hr { 
+    width: 90%; 
+    margin-left: 9px; 
+    border-radius: 4px; 
+    border: rgb(133, 95, 0) solid 1px;
+    padding: 2px;
+  }
+
+  .footerDivs {
+    margin-left: 0;
+  }
+
+  footer h4 {
+    padding: 10px;
+  }
+
+  footer .paragraphs {
+    padding: 10px;
+    width: 47ch;
+    font-size: 16px;
+  }
+
+  #NewslatterForm {
+    width: 100%;
+    padding: 10px;
+  }
+
+  form input {
+    width: 225px;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    background-color: #b8baba;
+  }
+
+  footer {
+    /* float: left;
+    display: flex; */
+    height: 95em;
+  } 
+}
+
