@@ -12,7 +12,7 @@
 }
 
 .bryneBio header {
-  background-image: url(../images/WhatsApp\ Image\ 2023-06-10\ at\ 20.06.16.jpg);
+  background-image: url(WhatsApp\ Image\ 2023-06-10\ at\ 20.06.16.jpg);
   background-repeat: no-repeat;
   height: 400px;
   background-size: cover;
@@ -63,7 +63,7 @@
   }
 
   .bryneBio header {
-    background-image: url(../images/bryne.jpg);
+    background-image: url(bryne.jpg);
     height: 400px;
     background-size:cover;
     border-radius: 4px;
